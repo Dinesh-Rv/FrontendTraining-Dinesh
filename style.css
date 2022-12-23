@@ -1,0 +1,300 @@
+section {
+    margin-top: 9%;
+}
+
+/* Imlementing psuedo element 
+   '::selection' element       
+   it gives control to modify what user selects*/
+section .right-side ::selection {
+    color: aquamarine;
+    background: black;
+}
+
+section .left-side {
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 8%;
+    margin-right: 2%;
+}
+
+section .right-side {
+    display: inline-block;
+    width: 55%;
+    margin-left: 5%;
+}
+
+section .right-side .prof-summary {
+    margin-top: 20px;
+}
+
+section .left-side .profile-head .profile-image {
+    border-radius: 50%;
+    margin-left: 45px;
+    margin-bottom: -10px;
+    height: 170px;
+    width: 170px;
+    margin-top: 5px;
+}
+
+/*Implementing Css operators
+  '>' - child selector
+  selects the child of the specified element*/
+section .left-side .profile-head>p {
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #334680;
+
+}
+
+section .left-side .profile-head .first-name {
+    margin-bottom: -9px;
+}
+
+section .left-side .profile-head .last-name {
+    margin-top: 1px;
+    margin-bottom: 15px;
+}
+
+section .left-side .profile-head .profile-role {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 0px;
+    color: #334680;
+
+}
+
+section .left-side .contact-info .contact-info-desc {
+    margin-left: 20px;
+    margin-bottom: -5px;
+    padding-bottom: 20px;
+}
+
+section .left-side .contact-info {
+    margin-top: 50px;
+
+}
+
+section .left-side .contact-info p {
+    vertical-align: top;
+    display: inline;
+    margin-top: 0px;
+    margin-left: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #334680;
+}
+
+
+section .left-side .contact-info img {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.2
+}
+
+section .left-side .contact-info hr,
+section .right-side .work-experience hr,
+section .right-side .education-desc hr {
+    border: 1.5px solid gray;
+    border: 0.5px solid gray;
+    opacity: 0.1;
+}
+
+section .left-side .contact-info hr {
+    width: 260px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+section .left-side button {
+    border: white;
+    margin-top: 70px;
+    height: 50px;
+    width: 200px;
+    color: white;
+    background-color: #377cfe;
+    border-radius: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+section .right-side .desc-head {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #334680;
+}
+
+section .right-side .prof-summary-desc {
+    font-family: 'Open Sans', sans-serif;
+    color: #334680;
+    font-weight: 500;
+    font-size: 14.4px;
+    line-height: 23px;
+}
+
+section .right-side .prof-head .desc-head {
+    margin-top: 10px;
+}
+
+section .right-side .desc-head {
+    margin-top: 70px;
+}
+
+section .right-side .work-experience .exp-info {
+    text-align: center;
+}
+
+section .right-side .work-experience .exp-info .exp-head {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: #334680;
+    background-color: white;
+    border: 0px;
+    width: 536px;
+}
+
+section .right-side .work-experience .exp-info .exp-head p {
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+section .right-side .work-experience .exp-info .time-preference {
+    text-align: right;
+    display: inline-block;
+}
+
+section .right-side .work-experience .exp-info .time-preference .full-time {
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #334680;
+    border: 9px solid #d7ffe0;
+    background-color: #d7ffe0;
+    border-radius: 20px;
+    text-align: center;
+    width: 100px;
+}
+
+section .right-side .work-experience .exp-info-desc {
+    text-align: center;
+}
+
+
+section .right-side .work-experience .exp-info-desc .company-info .company img,
+section .right-side .work-experience .exp-info-desc .company-info .company-location img,
+section .right-side .work-experience .exp-info-desc .date-info img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    opacity: 0.3;
+    margin-right: 5px;
+}
+
+section .right-side .education-desc .education-info .education-date img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    opacity: 0.3;
+    margin-right: 5px;
+}
+
+section .right-side .work-experience .exp-info-desc .company-info .company-location p,
+section .right-side .work-experience .exp-info-desc .company-info .company-location,
+section .right-side .work-experience .exp-info-desc .date-info p,
+section .right-side .work-experience .exp-info-desc .company-info {
+    display: inline-block;
+}
+
+
+section .right-side .work-experience .exp-info-desc div .exp-company {
+    display: inline-block;
+    margin-left: 4px;
+    vertical-align: middle;
+}
+
+section .right-side .work-experience .exp-info-desc .company,
+section .right-side .work-experience .exp-info-desc .company-location,
+section .right-side .work-experience .exp-info-desc .date-info,
+section .right-side .education-desc .education-info .education-date {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+section .right-side .work-experience .exp-info-desc p {
+    opacity: 0.4;
+}
+
+section .right-side .work-experience .exp-info-desc .date-info {
+    width: 400px;
+    text-align: right;
+}
+
+section .right-side .work-experience .exp-info-desc .company-location {
+    margin-left: 40px;
+}
+
+section .right-side .education-desc .education-head p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: #334680;
+    background-color: white;
+    border: 0px;
+    width: 536px;
+}
+
+section .right-side .education-desc .education-info .university img,
+section .right-side .education-desc .education-info .university .university-name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    opacity: 0.4;
+}
+
+section .right-side .education-desc .education-info .university img {
+    vertical-align: middle;
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+section .right-side .education-desc .education-info .education-date img,
+section .right-side .education-desc .education-info .education-date p {
+    display: inline-block;
+    opacity: 0.4;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+section .right-side .education-desc .education-info .university,
+section .right-side .education-desc .education-info .education-date {
+    display: inline-block;
+}
+
+section .right-side .education-desc .education-info {
+    text-align: center;
+}
+
+section .right-side .education-desc .education-info .university {
+    margin-right: 95px;
+}
+
+section .right-side .education-desc .education-info .education-date {
+    margin-left: 90px;
+}
